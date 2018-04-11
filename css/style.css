@@ -1861,16 +1861,19 @@ header {
 }
 
 .what-we-do-about{
-    font-size:18px;
+    font-size:21px;
 }
 
 .middle{
     text-align: center;
-    font-size:20px;
+    font-size:23px;
 }
 .mission{
     padding-top:40px
 }
 .footer-copyright{
     color:white;
+}
+.ourmission{
+    font-size:22px;
 }
