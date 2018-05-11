@@ -154,7 +154,10 @@
                         <p>JCOOK COUNTY PROVIDENT HOSPITAL</p>
                         <p>M.A.D.E. MAKING A DAILY EFFORT</p>
                         <p>HEKTOEN INSTITUTE</p>
-                        <a href="#">Read more</a>
+                        <p class="more">HEKTOEN INSTITUTE</p>
+                        <p class="more">HEKTOEN INSTITUTE</p>
+                
+                        <a class="readMore">Read more</a>
                     </div>
                 </div>
                 <!-- /about -->
@@ -248,12 +251,24 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
-                $("#sponsor").addClass("active-link")
-            })
+            $("#sponsor").addClass("active-link")
             $(".fadein").css("display","none")
             $(".white-text").css("display","none")
             $(".white-text").fadeIn(2500);
             $(".fadein").fadeIn(2000);
+            $(".more").hide()
+            $(".readMore").on("click",function(){
+                if($(".more").is(":visible")){
+                    $(".more").hide()
+                    $(".readMore").text("Read More")
+                }else{
+                    $(".more").show()
+                    $(".readMore").text("Hide")
+                }
+                })
+            })
+            
+           
     </script>
 </body>
 
