@@ -411,7 +411,7 @@ textarea:focus {
         right: -50%;
         top: 0;
         background-color: #6195FF;
-        width: 200px;
+        width: 181px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         -webkit-transform: translateY(15px) translateX(50%);
